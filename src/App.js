@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Componente from './componentes/Componente';
 import Propiedades from './componentes/Propiedades';
+import Estado from './componentes/Estado';
 import './App.css';
 
 function App() {
@@ -48,6 +49,10 @@ function App() {
               componenteReact={<Componente msg="Soy un componente pasado como prop" />}
               funcion={num => num * num}
             />
+
+            <hr />
+
+            <Estado />
 
           </section>
 
