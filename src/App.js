@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import Componente from './componentes/Componente';
 import Propiedades from './componentes/Propiedades';
 import Estado from './componentes/Estado';
+import RenderizadoCondicional from './componentes/RenderizadoCondicional';
+import RenderizadoElementos from './componentes/RenderizadoElementos';
 import './App.css';
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
             <img src={logo} className="App-logo" alt="logo" />
 
             <p>
-              Editar <code>src/App.js</code> and save to reload.
+              Editar <code>src/App.js</code> y guardar para recargar.
             </p>
 
             <a
@@ -27,7 +29,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn React
+              Aprende React
             </a>
           
           </section>
@@ -53,6 +55,14 @@ function App() {
             <hr />
 
             <Estado />
+
+            <hr />
+
+            <RenderizadoCondicional />
+            
+            <hr />
+
+            <RenderizadoElementos />
 
           </section>
 
