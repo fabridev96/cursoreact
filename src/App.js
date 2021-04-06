@@ -6,6 +6,7 @@ import Estado from './componentes/Estado';
 import RenderizadoCondicional from './componentes/RenderizadoCondicional';
 import RenderizadoElementos from './componentes/RenderizadoElementos';
 import { EventosES6, EventosES7, MasSobreEventos } from './componentes/Eventos';
+import Padre from './componentes/ComunicacionComponentes';
 import './App.css';
 
 function App() {
@@ -76,6 +77,10 @@ function App() {
             <hr />
 
             <MasSobreEventos />
+
+            <hr />
+
+            <Padre />
 
           </section>
 
