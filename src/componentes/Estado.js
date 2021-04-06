@@ -26,6 +26,7 @@ export default class Estado extends Component{
 
         }
         
+        /*
         setInterval(() => {
 
             this.setState({
@@ -33,7 +34,21 @@ export default class Estado extends Component{
             });
 
         },1000);
+        */
+        
 
+    }
+
+    componentDidMount(){
+
+        setInterval(() => {
+
+            this.setState({
+                contador: this.state.contador + 1,
+            });
+
+        },1000);
+        
     }
 
     render(){
